@@ -18,18 +18,18 @@ public class LoadBalancer {
   private static LoadBalancer instance;
 
   // An ArrayList to store available servers in.
-  private List<String> servers = new ArrayList<String>();
+  private List<Server> servers = new ArrayList<Server>();
 
   // Random number generator.
   private Random random = new Random();
 
   private LoadBalancer() {
     // Add five servers to our servers ArrayList.
-    servers.add("Server A");
-    servers.add("Server B");
-    servers.add("Server C");
-    servers.add("Server D");
-    servers.add("Server E");
+    servers.add(new Server("Server A", "123.456.1.12"));
+    servers.add(new Server("Server B", "123.456.4.27"));
+    servers.add(new Server("Server C", "123.456.0.91"));
+    servers.add(new Server("Server D", "123.456.91.2"));
+    servers.add(new Server("Server E", "123.456.8.66"));
   }
 
   public static LoadBalancer getInstance() {
@@ -41,7 +41,7 @@ public class LoadBalancer {
   }
 
   // Randomly select and return a server from the servers ArrayList.
-  public String getServer() {
+  public Server getServer() {
     int r = random.nextInt(servers.size());
     return servers.get(r);
   }

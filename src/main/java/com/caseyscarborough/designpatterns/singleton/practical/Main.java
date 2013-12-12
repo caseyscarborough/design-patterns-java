@@ -18,7 +18,7 @@ public class Main {
     LoadBalancer balancer = LoadBalancer.getInstance();
 
     // Show the load balancing functionality.
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 10; i++) {
       Server server = balancer.getServer();
       System.out.printf("Request was sent to %s at IP Address %s.\n",
           server.getName(), server.getIpAddress());

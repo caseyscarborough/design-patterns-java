@@ -7,6 +7,7 @@ Frequency of use: ![Medium High](http://www.dofactory.com/Images/use_medium_high
 #### Examples
 
 * [Structural Example](https://github.com/caseyscarborough/design-patterns-java/tree/master/src/main/java/com/caseyscarborough/designpatterns/command/structural)
+* [Practical Example](https://github.com/caseyscarborough/design-patterns-java/tree/master/src/main/java/com/caseyscarborough/designpatterns/command/practical)
 
 #### Resources
 

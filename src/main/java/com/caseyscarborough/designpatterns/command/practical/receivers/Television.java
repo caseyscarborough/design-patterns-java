@@ -1,4 +1,4 @@
-package commandpattern.receivers;
+package com.caseyscarborough.designpatterns.command.receivers;
 
 /**
  * This is our actual receiver. It implements the methods

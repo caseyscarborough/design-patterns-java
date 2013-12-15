@@ -1,6 +1,6 @@
-package commandpattern.commands;
+package com.caseyscarborough.designpatterns.command.commands;
 
-import commandpattern.receivers.Device;
+import com.caseyscarborough.designpatterns.command.receivers.Device;
 
 /**
  * This is one of our ConcreteCommands in the Command

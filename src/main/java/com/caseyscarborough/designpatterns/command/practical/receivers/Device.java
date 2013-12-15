@@ -1,4 +1,4 @@
-package commandpattern.receivers;
+package com.caseyscarborough.designpatterns.command.receivers;
 
 /**
  * This abstract class is used to define the methods that

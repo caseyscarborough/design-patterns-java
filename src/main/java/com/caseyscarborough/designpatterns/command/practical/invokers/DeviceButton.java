@@ -1,6 +1,6 @@
-package commandpattern.invokers;
+package com.caseyscarborough.designpatterns.command.invokers;
 
-import commandpattern.commands.Command;
+import com.caseyscarborough.designpatterns.command.commands.Command;
 
 /**
  * This is our Invoker. It handles the execution of the

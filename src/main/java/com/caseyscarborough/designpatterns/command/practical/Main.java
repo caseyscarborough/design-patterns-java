@@ -1,13 +1,8 @@
-package commandpattern;
+package com.caseyscarborough.designpatterns.command;
 
-import commandpattern.commands.Command;
-import commandpattern.commands.TurnOff;
-import commandpattern.commands.TurnOn;
-import commandpattern.commands.TurnVolumeUp;
-import commandpattern.invokers.DeviceButton;
-import commandpattern.receivers.Device;
-import commandpattern.receivers.Radio;
-import commandpattern.receivers.Television;
+import com.caseyscarborough.designpatterns.command.commands.*;
+import com.caseyscarborough.designpatterns.command.invokers.DeviceButton;
+import com.caseyscarborough.designpatterns.command.receivers.*;
 
 public class Main {
 
